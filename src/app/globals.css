@@ -1,26 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+    --color-Neutral-900: hsl(227, 75%, 14%);
+    --color-Neutral-800: hsl(226, 25%, 17%);
+    --color-Neutral-700: hsl(225, 23%, 24%);
+    --color-Neutral-600: hsl(226, 11%, 37%);
+    --color-Neutral-300: hsl(0, 0%, 78%);
+    --color-Neutral-200: hsl(217, 61%, 90%);
+    --color-Neutral-100: hsl(0, 0%, 93%);
+    --color-Neutral-0: hsl(200, 60%, 99%);
+    --color-Red-400: hsl(3, 86%, 64%);
+    --color-Red-500: hsl(3, 71%, 56%);
+    --color-Red-700: hsl(3, 77%, 44%);
+    --color-LightGradient-Left: #EBF2FC;
+    --color-LightGradient-Right: #EEF8F9;
+    --color-DarkGradient-Left: #040918;
+    --color-DarkGradient-Right: #091540;
+    --font-NotoSans: "Noto Sans", sans-serif;
 }
