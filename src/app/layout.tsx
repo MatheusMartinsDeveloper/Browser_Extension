@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>
+      <body className="bg-linear-120 from-LightGradient-Left to-LightGradient-Right">
         {children}
       </body>
     </html>
